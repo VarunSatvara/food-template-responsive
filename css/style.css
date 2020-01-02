@@ -1,0 +1,87 @@
+.nav-head {
+    z-index: 999;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar {
+    transition: top 0.3s;
+    background-color: none !important;
+    transition: background-color 200ms linear;
+}
+
+.header-bg {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url(../images/restaurant.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    z-index: 5;
+}
+
+.header-h1 {
+    font-size: 75px;
+    font-family: 'Yeseva One', cursive;
+    padding: 0px 70px;
+}
+
+.btn-book {
+    background-color: #161c1c;
+    opacity: 0.8;
+}
+
+.btn-menu {
+    border: 1px solid white;
+    background-color: #bcae72;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2560px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header-h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .header-h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .header-h1 {
+        font-size: 30px;
+        padding: 0px 20px;
+        line-height: 32px;
+    }
+    .navbar {
+        background-color: #7f8c8d;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .header-h1 {
+        font-size: 25px;
+        padding: 0px 5px;
+        line-height: 30px;
+    }
+    .navbar {
+        background-color: #7f8c8d;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header-h1 {
+        font-size: 23px;
+        padding: 0px;
+        line-height: 30px;
+    }
+    .navbar {
+        background-color: #7f8c8d;
+    }
+}
