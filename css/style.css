@@ -39,6 +39,24 @@
     opacity: 0.8;
 }
 
+.dish-img {
+    height: 500px;
+    background-image: url(../images/dish.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sec2-h1 {
+    font-size: 36px;
+    color: #cc9900;
+    font-family: 'Lato', sans-serif;
+}
+
+.sec2-p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
 @media screen and (min-width: 1025px) and (max-width: 2560px) {}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
