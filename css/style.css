@@ -57,6 +57,22 @@
     font-family: 'Lato', sans-serif;
 }
 
+.leaves-bg {
+    background-image: url(../images/flower-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.content-leaves {
+    background-color: #121213;
+    opacity: 0.8;
+}
+
+.content-leaves p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
 @media screen and (min-width: 1025px) and (max-width: 2560px) {}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -91,6 +107,9 @@
     .navbar {
         background-color: #7f8c8d;
     }
+    .content-leaves p {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -101,5 +120,8 @@
     }
     .navbar {
         background-color: #7f8c8d;
+    }
+    .content-leaves p {
+        font-size: 14px;
     }
 }
